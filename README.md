@@ -9,7 +9,7 @@
 
 [*2.	Arrays unidimensionales o vectores*](#_apartado2)
 
-[*3.	Métodos del búsqueda y ordenación*](#_apartado3)
+[*3.	Métodos de búsqueda y ordenación*](#_apartado3)
 
 [*4.	Cadenas de caracteres o Strings*](#_apartado4)
 
@@ -21,7 +21,7 @@
 
 <br>
 
-# <a name="_apartado1"></a>1. Introducción.
+# <a id="_apartado1"></a>1. Introducción.
 
 Hasta el momento los tipos de datos que hemos visto ya sean **int, double, bool o char** nos permiten definir variables en las que solamente puede almacenarse un valor en un momento dado. Determinados problemas requieren grandes grupos de datos que formen por sí mismos una colección o estructura. Para poder definir estas estructuras los lenguajes de programación nos ofrecen unos tipos de datos más complejos basados en los tipos de datos simples que existen en el lenguaje.
 
@@ -32,7 +32,7 @@ La principal **diferencia** entre los vectores y las listas es que los vectores 
 <br>
 <br>
 
-# <a name="_apartado2"></a>2. Arrays unidimensionales o vectores.
+# <a id="_apartado2"></a>2. Arrays unidimensionales o vectores.
 
 Los arrays surgen de la necesidad de tratar **conjuntos de datos del mismo tipo** relacionados. Tendremos una lista de elementos del mismo tipo. Accederemos a estos datos mediante un nombre común y un índice que indicará qué elemento del array o vector utilizamos.
 
@@ -501,7 +501,7 @@ static void Main(string[] args)
 <br>
 <br>
 
-# <a name="_apartado3"></a>3. Métodos de búsqueda y ordenación.
+# <a id="_apartado3"></a>3. Métodos de búsqueda y ordenación.
 
 En este apartado vamos a estudiar cómo buscar un elemento en un vector y cómo ordenar el mismo. 
 
@@ -558,7 +558,7 @@ Por otro lado, la ordenación, como su propio nombre indica, nos permite ordenar
 <br>
 <br>
 
-# <a name="_apartado4"></a>4. Cadenas de caracteres o strings.
+# <a id="_apartado4"></a>4. Cadenas de caracteres o strings.
 
 El manejo de cadenas de caracteres es una tarea frecuente en la implementación de un programa. 
 
@@ -606,7 +606,7 @@ Así: `string.Compare(cad1, cad2)` devolverá un entero:
 <br>
 <br>
 
-# <a name="_apartado5"></a>5. Ejemplo con vectores de strings y ordenación.
+# <a id="_apartado5"></a>5. Ejemplo con vectores de strings y ordenación.
 
 Vamos a realizar un pequeño ejemplo en el que, repasemos y ampliemos algunos de los conceptos vistos hasta el momento.
 
@@ -845,7 +845,7 @@ static void Main(string[] args)
 <br>
 <br>
 
-# <a name="_apartado6"></a>6. La clase List.
+# <a id="_apartado6"></a>6. La clase List.
 
 En este apartado vamos a introducir un nuevo tipo de datos estructurado que nos va a permitir trabajar con **colecciones de datos** de forma similar a como lo hacemos con los vectores, pero con **mayor funcionalidad**. 
 
@@ -1048,7 +1048,7 @@ También nos daría error si intentáramos hacer algo como `lista.Insert(10, 20)
 <br>
 <br>
 
-# <a name="_apartado7"></a>7. Ejemplos con List.
+# <a id="_apartado7"></a>7. Ejemplos con List.
 
 Vamos a realizar un pequeño ejemplo con Formularios en el que simplemente leamos una lista de nombres, los mostremos por pantalla y probemos distintas funciones de listas. 
 En el formulario tendremos una serie de botones donde podremos probar y los cambios se reflejarán en un Label (lblNombres).

@@ -1,6 +1,8 @@
-![Union europea](./images/imagen01.jpeg)  ![Generalitat](./images/imagen02.jpeg)                                   ![Mare Nostrum](./images/imagen03.png)
+![Union europea](../images/union_europea.jpeg)  ![Generalitat](../images/generalitat.jpeg) ![Mare Nostrum](../images/mare_nostrum.png)
 
 <br>
+
+<a id="_apartado_1"></a>
 
 # Instrucciones generales
 
