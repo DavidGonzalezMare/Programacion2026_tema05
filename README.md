@@ -17,7 +17,7 @@
 
 [*6.	La clase List*](#_apartado6)
 
-[*6.	Ejemplos con List*](#_apartado7)
+[*7.	Ejemplos con List*](#_apartado7)
 
 <br>
 
@@ -172,6 +172,8 @@ private void btnMostrar_Click(object sender, EventArgs e)
 **Nota:** Notemos que en este y ejemplos posteriores **el vector se declara fuera de los botones**. Esto es así porque leemos el vector en un botón y lo mostramos en otro. Si lo declaráramos dentro del botón su ámbito de utilización sería ese botón y por tanto no podríamos acceder a él desde el botón de escritura. 
 
 Sin embargo, en las funciones de `leerVector` y `mostrarVector` es importante que **pasemos por parámetros el vector** que queremos utilizar.
+
+<br>
 
 **Ejemplo.** Tenemos un vector con las notas de los alumnos de DAW y les aumentaríamos a todos un punto.
 
@@ -395,8 +397,7 @@ static class Funciones
             do
             {
                 vector[i] = LeerEntero($"Introduzca la nota {i} (entre 0 y 10):");
-            }
-      while (vector[i] < 0 || vector[i] > 10);
+            } while (vector[i] < 0 || vector[i] > 10);
         }
     }
 
@@ -508,10 +509,9 @@ La búsqueda de un elemento en un vector consiste en buscar un determinado valor
 
 Por otro lado, la ordenación, como su propio nombre indica, nos permite ordenar.
 
-         // Función que busca un valor en el vector. Devolverá la posición 
-        // en el vector o bien -1 si no encuentra el valor en el mismo.
-
 ```csharp
+    // Función que busca un valor en el vector. Devolverá la posición 
+    // en el vector o bien -1 si no encuentra el valor en el mismo.
     int BuscarValor(int[] vector, int valor)
     {
         int i, res;
@@ -581,15 +581,17 @@ Recordar que una cadena de caracteres se representa entre comillas dobles: "Davi
 Podemos utilizar el operador `+` para concatenar cadenas:
 
 ```csharp
-	st = “Me llamo “
-	st = st + “David González”
+	st = "Me llamo ";
+	st = st + "David González";
 ```
 
 También podemos **acceder a los caracteres individuales de un string** como si fuera un vector. `st[5]` valdrá: 'a'.
 
 `cadena.Length` nos devuelve el número de caracteres de cadena.
 
-Si queremos comparar alfabéticamente dos cadenas de caracteres podemos utilizar la función `string.Compare`.
+<br>
+
+Si queremos **comparar alfabéticamente** dos cadenas de caracteres podemos utilizar la función `string.Compare`.
 
 Así: `string.Compare(cad1, cad2)` devolverá un entero:
 
