@@ -2,12 +2,12 @@
 
 <br>
 
-<a id="_apartado_1"></a>
+<a id="_apartado1"></a>
 
 # Instrucciones generales
 
-- **Entorno:** Visual Studio 2022 (Community). **Proyectos de Consola en C#** (Windows Forms solo si se indica).
-- **Alcance del Tema 6:** arrays (vectores), búsqueda/ordenación, validación básica, strings y List<T>.
+- **Entorno:** Visual Studio 2026 (Community). **Proyectos de Consola en C#** (Windows Forms solo si se indica).
+- **Alcance del Tema 5:** arrays (vectores), búsqueda/ordenación, validación básica, strings y List<T>.
 - **Estilo de código (Microsoft):**
   - Variables y parámetros: **camelCase** (p. ej., precioNeto).
   - Constantes/propiedades: **PascalCase** (p. ej., Iva, TipoCambio).
@@ -79,7 +79,22 @@ Introduce las temperaturas de 24 horas en un vector.
 
 Realizar **un subprograma** que permita obtener la temperatura máxima, mínima y la media.
 
-# Ejercicio 8. Integrador 1: Monitor de red (equipos y latencias).
+## Ejercicio 8. Ampliación del ejemplo del tema (apartado 5)
+
+Partiendo del ejemplo resuelto del apartado 5 (alumnos + notas con **arrays paralelos**), añade mejoras que NO estén en el ejemplo.
+
+Además, el programa debe incluir una opción para **cargar datos de prueba**:
+
+- Cargar automáticamente un **listado fijo** de alumnos y notas (no aleatorio) para poder hacer pruebas sin escribirlos a mano.
+  
+Propuestas de mejoras.
+
+- Opción para **modificar** la nota de un alumno existente.
+- Opción para **listar solo aprobados / suspensos**.
+
+<br>
+
+# Ejercicio 9. Integrador 1: Monitor de red (equipos y latencias).
 
 Crea un programa de consola que gestione N equipos de una red (tamaño fijo, recomendado 10).
 
@@ -101,21 +116,6 @@ El programa tendrá un menú repetitivo con, al menos, estas opciones:
 - No uses List<T> en este integrador: debe ser con **arrays**.
   
 **Implementa este integrador solo con las técnicas desarrolladas y usadas en los apuntes, evitando atajos o recursos no aplicados en clase. (p. ej., lambdas, funciones anónimas, LINQ).**
-
-## Ejercicio 9. Ampliación del ejemplo del tema (apartado 5)
-
-Partiendo del ejemplo resuelto del apartado 5 (alumnos + notas con **arrays paralelos**), añade mejoras que NO estén en el ejemplo.
-
-Además, el programa debe incluir una opción para **cargar datos de prueba**:
-
-- Cargar automáticamente un **listado fijo** de alumnos y notas (no aleatorio) para poder hacer pruebas sin escribirlos a mano.
-  
-Propuestas de mejoras.
-
-- Opción para **modificar** la nota de un alumno existente.
-- Opción para **listar solo aprobados / suspensos**.
-
-<br>
 
 # Ejercicios con Listas
 

@@ -84,7 +84,7 @@ Cada componente del ARRAY se designa utilizando el nombre de la variable del tip
 nombreVector[índice]
 ```
 
-Importante tener en cuenta que los elementos de un vector en Visual C# van desde 0 al número de elementos - 1. Es decir, un vector de tamaño 10 tiene los elementos **0, 1, 2, 3, 4, 5, 6, 7, 8 y 9**.
+Importante tener en cuenta que los elementos de un vector en Visual C# van desde **0 al número de elementos - 1**. Es decir, un vector de tamaño 10 tiene los elementos **0, 1, 2, 3, 4, 5, 6, 7, 8 y 9**.
 
 Existe una función `Length` que nos devuelve el número de elementos que tiene el vector. En el caso anterior nos devolvería 10.
 
